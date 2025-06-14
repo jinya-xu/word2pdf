@@ -105,7 +105,7 @@ class WordToPdfConverter:
                 return True
                 
             except Exception as e:
-                print(f"转换失败 {word_path}: {str(e)}")
+                print(f"转换失败之后呢? {word_path}: {str(e)}")
                 return False
                 
             finally:
